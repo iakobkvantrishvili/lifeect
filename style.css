@@ -1,0 +1,158 @@
+body {
+    margin:0px;
+    padding: 0px;
+}
+
+.navbar-expand-lg {
+    width:91%;
+    height: 97px;
+    margin: auto;
+}
+
+
+
+.navbar-expand-lg .navbar-brand h1 {
+    font-size: 37px;
+    color: #2E302F;
+    margin: auto;
+    margin-left: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+header .navbar-collapse .nav-link {
+    font-family: 'Roboto', sans-serif;  
+    font-size: 14px;
+    font-weight: 300;
+    color: #2E302F!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    transition: 0.3s;
+}
+header .navbar-collapse .nav-link .fa-shopping-bag{
+margin-left: -10px;
+}
+
+header .navbar-collapse .nav-link:hover {
+    color: #AFAFAF!important;
+}
+
+header .navbar-collapse .nav-item:last-child {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    font-size: 22px;
+}
+main .title{
+    display: flex;
+}
+main .title hr{
+    width: 300px;
+    
+}
+main .slide{
+   max-width: 80%;
+    margin: auto;
+    max-height: 606px;
+}
+main .slide .carousel-inner .carousel-item .w-100{
+    object-fit: contain;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    margin: 0px 5px;
+    border:none;
+    padding: 0px;
+    opacity: 1;
+
+}
+.carousel-indicators{
+    display: flex;
+    align-items: center;
+}
+.carousel-indicators .active{
+    background: transparent;
+    border: 3px solid white;
+}
+main .bottom{
+    display: flex;
+    margin-top: 20px;
+    
+}
+main .bottom hr{
+    width: 300px;
+}
+main .card-area{
+    display: flex;
+    justify-content: space-around;
+}
+.image-card {
+    width:20%;
+    position: relative;
+    overflow: hidden;
+    max-height: 300px;
+  
+    
+}
+.image-card img {
+    width:100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+.image-card .image-twice {
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 0;
+}
+.image-card .image-twice .info{
+    position: absolute;
+    top: 0px;
+    bottom: -80px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 0.3s;
+}
+.image-card .image-twice .info{
+    bottom: 0;
+}
+
+.image-card .image-twice:hover {
+    opacity: 1;
+}
+.image-card .image-twice p{
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    background: #E1E0E3;
+    margin: 0px;
+}
+
+main button{
+   width: 132px;
+   height: 34px;
+    margin-top: 30px;
+    margin-left: 620px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid black;
+    color: #000000;
+}
+main button:hover{
+    background:#989998 ;
+    color: #ffff;
+}
